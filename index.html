@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Front End Simplified</title>
 </head>
 <body>
-    <h1>beans</h1>
+    <section>
+        <nav>
+            <img src="./assets/FES.svg" "alt="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div>
+                <h1>Best place to learn frontend</h1>
+                <p>
+                    Go from being an absolute beginner to pro with a simplified process
+                </p>
+                <button>Start Now</button>
+            </div>
+            <figure>
+                <img src="./assets/laptop.png" alt="Hero Image">
+            </figure>
+        </header>
+    </section>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <div>
+                <p>
+                    We are a team of passionate developers dedicated to making frontend development accessible to everyone. Our mission is to simplify the learning process and provide high-quality resources for aspiring frontend developers.
+                </p>
+                <p>
+                    lore ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <figure>
+                <img src="./assets/about.jpg" alt="About Us Image">
+            </figure>
+        </section>
+        <section id="discord">
+            <h2>Discord</h2>
+            <figure>
+                <img src="./assets/discord.png" alt="Discord Image">
+            </figure>
+            <div>
+                <p>
+                    Join our Discord community to connect with other learners and get help with your frontend development journey.
+                </p>
+                <p>
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="visitoremail@gmail.com" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea placeholder="Your message here..." id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="#about">About</a>
+            <a href="#discord">Discord</a>
+            <a href="#contact">Contact</a>
+            <a href="">Courses</a>
+            
+        </div>
+        <p>&copy; 2026 Front End Simplified. All rights reserved.</p>
+    </footer>
 </body>
 </html>
